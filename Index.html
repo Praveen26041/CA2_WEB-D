@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Portfolio</title>
+
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { 
+            font-family:Arial, sans-serif; 
+            background:#f4f5f7; 
+        }
+
+        /* NAVIGATION */
+        nav {
+            background:#1e1e2f; 
+            color:white; 
+            padding:15px 40px;
+            display:flex; 
+            justify-content:space-between; 
+            align-items:center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav .logo { font-size:22px; font-weight:bold; }
+        nav a {
+            color:white;
+            text-decoration:none;
+            margin-left:25px;
+            font-size:16px;
+        }
+        nav a:hover { text-decoration:underline; }
+
+        /* HERO SECTION */
+        .hero {
+            height:70vh;
+            background:linear-gradient(to bottom right, #1e1e2f, #373754);
+            color:white;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            text-align:center;
+            padding:20px;
+        }
+
+        .hero h1 {
+            font-size:48px;
+            margin-bottom:10px;
+        }
+
+        .hero p {
+            font-size:18px;
+            width:60%;
+            min-width:260px;
+            line-height:1.6;
+            margin-bottom:20px;
+        }
+
+        .btn {
+            background:white;
+            color:#1e1e2f;
+            padding:12px 25px;
+            font-size:16px;
+            border-radius:8px;
+            border:none;
+            cursor:pointer;
+            font-weight:bold;
+            transition:0.3s;
+        }
+
+        .btn:hover {
+            background:#dfe1e5;
+        }
+
+        /* INTRO CARD */
+        .intro-card {
+            width:80%;
+            margin:auto;
+            background:white;
+            padding:25px;
+            border-radius:12px;
+            box-shadow:0 6px 14px rgba(0,0,0,0.1);
+            margin-top:-40px;
+            position:relative;
+            text-align:center;
+        }
+
+        .intro-card p {
+            font-size:17px;
+            line-height:1.6;
+            color:#333;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <div class="logo">My Portfolio</div>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+
+<!-- HERO SECTION -->
+<div class="hero">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Explore my work, skills, and journey as I grow in the world of web development!</p>
+
+</div>
+
+<!-- INTRO CARD -->
+<div class="intro-card">
+    <p>
+        This is my simple student portfolio made with HTML and CSS.  
+        It showcases my learning progress, skills, and projects in a clean and modern layout.
+    </p>
+</div>
+
+</body>
+</html>

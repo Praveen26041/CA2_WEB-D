@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Skills</title>
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { 
+            font-family:Arial, sans-serif; 
+            background:#eef1f5; 
+        }
+
+        /* NAVIGATION */
+        nav {
+            background:#1e1e2f; 
+            color:white; 
+            padding:15px 40px;
+            display:flex; 
+            justify-content:space-between; 
+            align-items:center;
+        }
+        nav a { 
+            color:white; 
+            margin-left:25px; 
+            text-decoration:none;
+            font-size:16px;
+        }
+        nav a:hover { text-decoration:underline; }
+        .logo { font-size:22px; font-weight:bold; }
+
+        /* HEADER */
+        h2 { 
+            text-align:center; 
+            margin-top:40px; 
+            font-size:32px;
+            color:#1e1e2f;
+        }
+
+        /* SKILL CARDS */
+        .skills-wrapper {
+            width:85%;
+            margin:40px auto;
+            display:flex;
+            justify-content:center;
+            gap:30px;
+            flex-wrap:wrap;
+        }
+
+        .skill-card {
+            background:white;
+            width:260px;
+            padding:25px;
+            border-radius:14px;
+            text-align:center;
+            box-shadow:0 8px 18px rgba(0,0,0,0.12);
+            border:2px solid #ddd;
+            transition:0.35s;
+        }
+
+        .skill-card h3 {
+            margin-bottom:10px;
+            font-size:22px;
+            color:#1e1e2f;
+        }
+
+        .skill-card p {
+            font-size:16px;
+            color:#444;
+        }
+
+        /* HOVER ANIMATION */
+        .skill-card:hover {
+            transform:translateY(-10px) scale(1.03);
+            box-shadow:0 12px 24px rgba(0,0,0,0.18);
+            border-color:#1e1e2f;
+        }
+
+        /* TAG STYLE */
+        .tag {
+            display:inline-block;
+            padding:6px 12px;
+            background:#1e1e2f;
+            color:white;
+            border-radius:20px;
+            font-size:13px;
+            margin-top:15px;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="logo">My Portfolio</div>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+
+<h2>My Skills & Projects</h2>
+
+<div class="skills-wrapper">
+
+    <div class="skill-card">
+        <h3>HTML</h3>
+        <p>Building webpage layouts, structure & basic components.</p>
+        <div class="tag">Frontend Skill</div>
+    </div>
+
+    <div class="skill-card">
+        <h3>CSS</h3>
+        <p>Styling elements, animations, and page designs with creativity.</p>
+        <div class="tag">Styling</div>
+    </div>
+
+    <div class="skill-card">
+        <h3>Mini Project</h3>
+        <p>A complete student portfolio website built using HTML & CSS.</p>
+        <div class="tag">Project</div>
+    </div>
+
+    <!-- NEW SKILL 1 -->
+    <div class="skill-card">
+        <h3>Video Editing / Color Grading</h3>
+        <p>Enhancing videos and photos using editing techniques and creative visual improvements.</p>
+        <div class="tag">Creative Skill</div>
+    </div>
+
+    <!-- NEW SKILL 2 -->
+    <div class="skill-card">
+        <h3>Research Skills</h3>
+        <p>Finding information effectively and understanding topics deeply.</p>
+        <div class="tag">Analytical</div>
+    </div>
+
+</div>
+
+</body>
+</html>
