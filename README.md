@@ -82,7 +82,7 @@ It demonstrates:
 
 ## 👤 Author
 
-**Name:** *[Your Name]*  
+**Name:** *Praveen Kumar Dubey*  
 **Project:** Student Portfolio Website  
 **Technology Used:** HTML + CSS  
 
